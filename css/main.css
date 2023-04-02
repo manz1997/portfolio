@@ -1,3 +1,9 @@
+:root {
+    --dark-blue: #325068;
+    --light-yellow: #FFD286;
+    --light-blue: #27AABF;
+}
+
 .offcanvas-body, .offcanvas-header {
 background-color: #FFD286;
 }
