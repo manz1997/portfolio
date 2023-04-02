@@ -4,8 +4,8 @@
     --light-blue: #27AABF;
 }
 
-.offcanvas-body, .offcanvas-header {
-background-color: #FFD286;
+.offcanvas-header, .offcanvas-body{
+    background-color: var(--light-yellow);
 }
 .nav-item {
     font-size: 2.5rem;
@@ -24,4 +24,17 @@ background-color: #FFD286;
     opacity: 50%;
     background-size: cover;
     border-radius: 50rem;
+}
+.card {
+    width: auto;
+}
+.card h5 {
+    color: var(--light-blue);
+}
+@media screen and (min-width: 993px) {
+
+    .container-fluid, .offcanvas-header, .offcanvas-body {
+        background-color: var(--dark-blue);
+    }
+
 }
