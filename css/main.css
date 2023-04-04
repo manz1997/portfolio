@@ -1,40 +1,91 @@
+
 :root {
     --dark-blue: #325068;
     --light-yellow: #FFD286;
     --light-blue: #27AABF;
 }
 
-.offcanvas-header, .offcanvas-body{
+/*.offcanvas-header, .offcanvas-body {
     background-color: var(--light-yellow);
-}
+}*/
 .nav-item {
     font-size: 2.5rem;
 }
+.col img {
+    -webkit-box-shadow: 0 28px 16px -26px rgba(0, 0, 0);
+    -moz-box-shadow: 0 28px 16px -26px rgba(0, 0, 0);
+    box-shadow: 0 28px 16px -26px rgba(0, 0, 0);
+}
+
+/*=========== styling for the about page ===============*/
+.about-header {
+    color: var(--light-blue);
+    text-shadow: 1px 1px ;
+    text-align: center;
+}
+
 .about-image {
     border-radius: 50rem;
-    margin-top: 10rem;
+    align-self: center;
 }
-.contact {
-    margin-top: 10rem;
-}
-.contact h2 {
-    width: 300px;
-    height: 300px;
-    background-image: url(../images/Manar-400_x_400.JPG);
-    opacity: 50%;
-    background-size: cover;
-    border-radius: 50rem;
-}
+
 .card {
     width: auto;
 }
 .card h5 {
     color: var(--light-blue);
 }
+.social {
+   display: flex;
+   justify-content: center;
+}
+
+/*============== styling for contact us page ======================*/
+.contact-us-image {
+    border-radius: 50rem;
+    opacity: 40%;
+}
+.contact h2 {
+    color: var(--light-blue);
+    justify-items: baseline;
+   
+}
+.contact-us {
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    border-radius: 50rem;
+    background-color: var(--dark-blue);
+    color: var(--light-yellow);
+}
+.input {
+    color: red;
+}
+.mb-3 {
+    color: var(--light-blue);
+
+}
+/*=============== styling for the footer secation in alll pages =======================*/
+.copyright {
+    border-top: 1px solid black;
+    
+}
 @media screen and (min-width: 993px) {
-
-    .container-fluid, .offcanvas-header, .offcanvas-body {
-        background-color: var(--dark-blue);
+    body {
+        overflow-x: hidden;
     }
+.bg-img {
+    height: 100vh;
+    width: 200vh;
+    object-fit: cover;
+    filter: brightness(0.6);
+    position: absolute;
 
+    
+ 
+}
+.image-home {
+    margin-top: 800px;
+}
 }
