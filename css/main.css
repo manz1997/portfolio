@@ -8,6 +8,9 @@
 /*.offcanvas-header, .offcanvas-body {
     background-color: var(--light-yellow);
 }*/
+.navbar-nav, .offcanvas-header, .offcanvas-body {
+    background: var(--light-yellow);
+}
 .nav-item {
     font-size: 2.5rem;
 }
@@ -67,11 +70,13 @@
 
 }
 /*=============== styling for the footer secation in alll pages =======================*/
+
 .copyright {
     border-top: 1px solid black;
     
 }
 @media screen and (min-width: 993px) {
+   
     body {
         overflow-x: hidden;
     }
@@ -81,11 +86,18 @@
     object-fit: cover;
     filter: brightness(0.6);
     position: absolute;
-
-    
  
 }
 .image-home {
-    margin-top: 800px;
+    margin-top: 650px;
+}
+h5 {
+    color: var(--light-blue);
+    text-shadow: 1px 1px;
+}
+.button {
+    border-radius: 50rem;
+    background-color: var(--dark-blue);
+    color: var(--light-yellow);
 }
 }
