@@ -8,9 +8,6 @@
 /*.offcanvas-header, .offcanvas-body {
     background-color: var(--light-yellow);
 }*/
-.navbar-nav, .offcanvas-header, .offcanvas-body {
-    background: var(--light-yellow);
-}
 .nav-item {
     font-size: 2.5rem;
 }
@@ -19,7 +16,9 @@
     -moz-box-shadow: 0 28px 16px -26px rgba(0, 0, 0);
     box-shadow: 0 28px 16px -26px rgba(0, 0, 0);
 }
-
+.offcanvas  {
+    background-color: var(--light-yellow);
+}
 /*=========== styling for the about page ===============*/
 .about-header {
     color: var(--light-blue);
@@ -42,7 +41,9 @@
    display: flex;
    justify-content: center;
 }
-
+.navbar-toggler, .nav-images {
+    background-color: rgb(128, 128, 128);
+}
 /*============== styling for contact us page ======================*/
 .contact-us-image {
     border-radius: 50rem;
@@ -69,31 +70,37 @@
     color: var(--light-blue);
 
 }
+.social-contact {
+    display: flex;
+    justify-content: end;
+}
 /*=============== styling for the footer secation in alll pages =======================*/
-
 .copyright {
     border-top: 1px solid black;
     
 }
+/*========================== styling for screen above 993px ===========================*/
 @media screen and (min-width: 993px) {
-   
     body {
         overflow-x: hidden;
     }
-.bg-img {
+
+    .nav-images, .offcanvas-header, .nav-item, .offcanvas-body {
+        background-color: transparent;
+    } 
+    .bg-img {
     height: 100vh;
-    width: 200vh;
+    width: 250vh;
     object-fit: cover;
-    filter: brightness(0.6);
+
     position: absolute;
  
 }
 .image-home {
-    margin-top: 650px;
+    margin-top: 800px;
 }
 h5 {
     color: var(--light-blue);
-    text-shadow: 1px 1px;
 }
 .button {
     border-radius: 50rem;
