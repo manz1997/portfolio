@@ -20,6 +20,9 @@
     background-color: var(--light-yellow);
 }
 /*=========== styling for the about page ===============*/
+h5 {
+    color: var(--light-blue);
+}
 .about-header {
     color: var(--light-blue);
     text-shadow: 1px 1px ;
@@ -107,5 +110,8 @@ h5 {
 }
 .nav-iteam {
     color: var(--light-blue);
+}
+.offcanvas-body, .navbar-brand, .navbar {
+    background: var(--dark-blue);
 }
 }
