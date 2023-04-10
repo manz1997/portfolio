@@ -42,7 +42,7 @@
    justify-content: center;
 }
 .navbar-toggler, .nav-images {
-    background-color: rgb(128, 128, 128);
+    background-color: rgb(40, 26, 26);
 }
 /*============== styling for contact us page ======================*/
 .contact-us-image {
@@ -63,9 +63,7 @@
     background-color: var(--dark-blue);
     color: var(--light-yellow);
 }
-.input {
-    color: red;
-}
+
 .mb-3 {
     color: var(--light-blue);
 
@@ -75,7 +73,7 @@
     justify-content: end;
 }
 /*=============== styling for the footer secation in alll pages =======================*/
-.copyright {
+footer {
     border-top: 1px solid black;
     
 }
@@ -106,5 +104,8 @@ h5 {
     border-radius: 50rem;
     background-color: var(--dark-blue);
     color: var(--light-yellow);
+}
+.nav-iteam {
+    color: var(--light-blue);
 }
 }
