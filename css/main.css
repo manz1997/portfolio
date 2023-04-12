@@ -98,7 +98,7 @@ footer {
  
 }
 .image-home {
-    margin-top: 800px;
+    margin-top: 700px;
 }
 h5 {
     color: var(--light-blue);
@@ -111,7 +111,10 @@ h5 {
 .nav-iteam {
     color: var(--light-blue);
 }
-.offcanvas-body, .navbar-brand, .navbar {
+.nav-blue {
     background: var(--dark-blue);
 }
+.social {
+    background-color: red;
+} 
 }

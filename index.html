@@ -20,8 +20,9 @@
 
 
 <header>
+
     <div class="d-none d-lg-block">
-    <img class="bg-img img-fluid" src="images/fortheheader.jpg">
+    <img class="bg-img img-fluid" src="images/fortheheader.jpg" alt="image of a model">
     </div>
     <div class="nav-images">
     <nav class="navbar navbar-expand-md navbar-dark">
@@ -30,11 +31,13 @@
               </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
               aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+              <span class="navbar-toggler-icon">
+              </span>
             </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
               <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                </h5>
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
                   </button>
               </div>
@@ -46,10 +49,12 @@
                   <li class="nav-item">
                     <a class="nav-link active" href="contact.html">Contact</a>
                   </li>
+                </ul>
+              </div>
             </div>
-          </div>
-        </nav>  
-     
+        </div>    
+      </nav>  
+    </div>
     </div>
     </header>
     <main>
@@ -62,7 +67,7 @@
                   <source srcset="images/1st-600_x_800.jpg,
                                   images/1st-400_x_600.jpg" type="image/svg+xml">
                   <img src="images/1st-600_x_800.jpg" class="img-fluid" alt="...">
-               </div>
+              </div>
                </picture>
 
               <div class="col mt-3">
@@ -144,7 +149,7 @@
                 <div class="col mt-3 pb-3">
                   <picture>
                     <source srcset="images/16th-600_x_800.jpg,
-                                    images/16th-400_x_600.jpg" type="image/svg+xml">
+                                    images/16th-400_x_600" type="image/svg+xml">
                     <img src="images/16th-600_x_800.JPG" class="img-fluid" alt="...">
                   </picture> 
                 </div>
@@ -153,7 +158,10 @@
         </div>
     </main>
     <footer>
-        <h2 class="copyright">©Manar Monzer<h2>
+      <div class="copyright">
+        <h2>©Manar Monzer</h2>
+      </div>
+
     </footer>
   </body>
 </html>
