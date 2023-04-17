@@ -4,7 +4,22 @@
     --light-yellow: #FFD286;
     --light-blue: #27AABF;
 }
-
+.skip-links{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .skip-links a{
+    position: absolute;
+    top: -3em;
+    background-color: black;
+    color:white;
+    padding: .5em 1em;
+    font-weight: bold;
+  }
+  .skip-links a:focus{
+    top: 0;
+  }
 /*.offcanvas-header, .offcanvas-body {
     background-color: var(--light-yellow);
 }*/
@@ -98,7 +113,8 @@ body {
     position: absolute;
 }
 .image-home {
-    margin-top: 600px;
+    margin-top: 800px;
+    margin-left: 100px;
 }
 h5 {
     color: var(--light-blue);

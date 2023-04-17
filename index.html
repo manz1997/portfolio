@@ -20,13 +20,18 @@
 
 
 <header>
-
+  <div class="container" role="banner">
+    <ul class="skip-links">
+      <li><a href="#nav-images">Skip to main nav</a></li>
+      <li><a href="#image-home">Skip to main content</a></li>
+    </ul>
+  </div>
     <div class="d-none d-lg-block bg-dark">
     <img class="bg-img img-fluid" src="images/fortheheader.jpg" alt="image of a model">
     </div>
     <div class="nav-images">
     <nav class="navbar navbar-expand-md navbar-dark">
-        <div class="container-fluid">
+        <div class="container-fluid" role="navigation">
             <a class="navbar-brand" href="index.html"> <img src="images/Transparent_logo-176.png" alt="Logo"  class="d-inline-block align-text-top">
               </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
@@ -57,7 +62,7 @@
     </div>
     </div>
     </header>
-    <main>
+    <main role="main">
       <!---------------------=======================
         Section for all the photos on the home page========================------------------------------>
         <div class="image-home">
