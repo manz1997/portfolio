@@ -45,7 +45,7 @@ h5 {
    justify-content: center;
 }
 .navbar-toggler, .nav-images {
-    background-color: rgb(40, 26, 26);
+    background-color: var(--dark-blue);
 }
 /*============== styling for contact us page ======================*/
 .contact-us-image {
@@ -75,6 +75,7 @@ h5 {
     display: flex;
     justify-content: end;
 }
+
 /*=============== styling for the footer secation in alll pages =======================*/
 footer {
     border-top: 1px solid black;
@@ -82,23 +83,22 @@ footer {
 }
 /*========================== styling for screen above 993px ===========================*/
 @media screen and (min-width: 993px) {
-    body {
-        overflow-x: hidden;
-    }
+body {
+    overflow-x: hidden;
+    
+}
 
-    .nav-images, .offcanvas-header, .nav-item, .offcanvas-body {
-        background-color: transparent;
-    } 
-    .bg-img {
+.nav-images, .offcanvas-header, .nav-item, .offcanvas-body {
+    background-color: transparent;
+} 
+.bg-img {
     height: 100vh;
     width: 250vh;
     object-fit: cover;
-
     position: absolute;
- 
 }
 .image-home {
-    margin-top: 700px;
+    margin-top: 600px;
 }
 h5 {
     color: var(--light-blue);
@@ -114,7 +114,4 @@ h5 {
 .nav-blue {
     background: var(--dark-blue);
 }
-.social {
-    background-color: red;
-} 
 }
